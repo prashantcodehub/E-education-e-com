@@ -1,0 +1,28 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-navbar-rht {
+        display: none;
+    }
+    .product-content {
+        padding: 20px 30px 20px 30px !important;
+    }
+}
+
+/* 
+ Laptops,Desktop monitors,ipad pros
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .course-info p {
+        font-size: 14px;
+    }
+    .box-1 {
+        min-height: 380px;
+    }
+    .instructorhome-sec .instructors-widget {
+        height: unset;
+        min-height: unset;
+    }
+    .mt-xl-30 {
+        margin-top: 30px;
+    }
+}

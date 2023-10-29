@@ -1,0 +1,303 @@
+<!---Log-in-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in Page</title>
+
+    <link rel="stylesheet" href="login.css">
+
+    <!-- Vendor css goes here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/plugins/slick/slick.css" />
+    <link rel="stylesheet" href="assets/plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css" />
+    <link rel="stylesheet" href="assets/plugins/aos/aos.css" />
+    <link rel="stylesheet" href="assets/css/lity.css" />
+    <link href="assets/plugins/snackbar/snackbar.min.css" rel="stylesheet" />
+    <!-- Webfonts css goes here -->
+    <link rel="stylesheet" href="assets/webfonts/gordita.css" />
+
+    <!-- Font icons css goes here -->
+    <link rel="stylesheet" href="assets/font-icons/flaticon_leadsguru.css" />
+
+
+    <!-- Base stylesheets goes here -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Custom stylesheets goes here -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body>
+
+    <div class="main-header">
+        <header class="header">
+            <div class="header-fixed ">
+                <nav class="navbar navbar-expand-lg header-nav scroll-sticky">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a id="mobile_btn" href="javascript:void(0);">
+                                <span class="bar-icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                            </a>
+                            <a href="/" class="navbar-brand logo">LOGO
+                                <!-- <img src=""
+                                    class="img-fluid w__120 w__70-xs-en pad-t-b-5-xs" alt="Logo"> -->
+                            </a>
+                            <a href="/login.aspx" class="account-icon-fix d-block d-sm-none">
+                                <i class="flaticon-user fs-25 custom-account-icon"></i>
+                            </a>
+                        </div>
+                        <div class="main-menu-wrapper">
+                            <div class="menu-header">
+                                <a href="/" class="menu-logo">
+                                    <img src="/assets/images/global/logo.svg" class="img-fluid w__70-xs-en pad-t-b-5-xs"
+                                        alt="Logo">
+                                </a>
+                                <a id="menu_close" class="menu-close" href="javascript:void(0)">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </div>
+                            <ul class="main-nav">
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li><a href="/About.html">About Us</a></li>
+                                <li><a href="/Services.html">Services</a></li>
+                                <li class="has-submenu">
+                                    <!-- <a href="javascript:void(0)">Courses <i class=""></i></a> -->
+                                    <a href="/Course.html">Courses <i class=""></i></a>
+
+                                </li>
+
+                                <!-- <li><a href="/">Blog</a></li> -->
+                                <li><a href="/contact.html">ContactUs</a></li>
+
+                            </ul>
+                            <div id="divSideMenuLogin"
+                                class="all-btn all-category d-flex align-items-center justify-content-center d-block d-sm-none mar-top-20">
+                                <a href="/Login.html" class="btn btn-primary w__90-p">Login / Signup</a>
+                            </div>
+                        </div>
+
+                        <ul id="divLogin" class="nav header-navbar-rht d-none-xs">
+                            <li class="nav-item">
+                                <a class="nav-link header-login" href="/Login.html">Login / Signup</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+    </div>
+
+
+
+    <div class="accountForm">
+        <button type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+        <section>
+            <div class="container23">
+                <div class="user signinBx">
+                    <div class="imgBx">
+                        <img src="https://raw.githubusercontent.com/WoojinFive/CSS_Playground/master/Responsive%20Login%20and%20Registration%20Form/img1.jpg"
+                            alt="" />
+                    </div>
+                    <div class="formBx">
+                        <form action="" onsubmit="return false;">
+                            <h2>Sign In</h2>
+                            <input type="text" name="" placeholder="Username" />
+                            <input type="password" name="" placeholder="Password" />
+                            <input type="submit" name="" value="Login" />
+                            <p class="signup">
+                                Don't have an account ?
+                                <a href="#" onclick="toggleForm();">Sign Up.</a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+                <div class="user signupBx">
+                    <div class="formBx">
+                        <form action="" method="POST">
+                            <table>
+                                <tr>
+                                    <td>Name :</td>
+                                    <td><input type="text" id="username" name="username" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Password :</td>
+                                    <td><input type="password" id="pass" name="password" required></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Email :</td>
+                                    <td><input type="email" id="email" name="email" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Phone no :</td>
+                                    <td>
+                                        <input type="phone" id="phone" name="phone" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="submit" onclick="givenValue()" value="Submit" name="submit"></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- <footer class="footer">
+        <div class="footer-top aos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="footer-widget footer-about">
+
+                            <div class="footer-about-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis facilis
+                                    dolore est numquam, eligendi voluptatem architecto doloremque ab autem
+                                    voluptatum fugit adipisci placeat consequuntur quaerat magni. Veniam non
+                                    inventore nam!</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+
+                        <div class="footer-widget footer-menu">
+                            <h3 class="footer-title">Quick Links</h3>
+                            <ul>
+                                <li><a href="/faq.aspx">FAQ's</a></li>
+
+                                <li><a href="/privacy-policy.aspx">Privacy Policy</a></li>
+                                <li><a href="/term-condition.aspx">Terms & Conditions</a></li>
+
+                                <li><a href="/cookie-policy.aspx">End User Agreement</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget footer-menu">
+                            <h3 class="footer-title">Courses </h3>
+                            <ul>
+                                <li><a href="/">Bronze Package</a></li>
+                                <li><a href="/">Silver Package</a></li>
+                                <li><a href="/">Gold Package</a></li>
+                                <li><a href="/">Platinum Package</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <div class="copyright">
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="copyright-text">
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer> -->
+    <!-- ./ Footer section ends here -->
+
+
+    </form>
+
+
+    <script>
+        function givenValue() {
+            // var name = documents.getElementById("username").value;
+            // var email = documents.getElementById("email").value;
+            // var phone = documents.getElementById("phone").value;
+            // var password = documents.getElementById("pass").value;
+            alert("Hello");
+            console.log("Hello");
+            console.log(name);
+            // document.write("Your" + name);
+        }
+    </script>
+
+    <!-- Script section goes here -->
+    <script src="/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/jquery.waypoints.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/plugins/select2/js/select2.min.js"></script>
+    <script src="/assets/plugins/snackbar/snackbar.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/plugins/slick/slick.js"></script>
+    <script src="/assets/plugins/aos/aos.js"></script>
+    <script src="/assets/js/validation.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/lity.js"></script>
+    <!-- ./ Script section ends here -->
+    <script>
+        $('.close').on('click', function () {
+            $(this).parent('.alert-msg').hide();
+        });
+
+    </script>
+
+    <!-- store the data -->
+
+    <!-- store the data -->
+
+
+
+
+
+
+    <script>
+        const toggleForm = () => {
+            const container = document.querySelector('.container23');
+            container.classList.toggle('active');
+        };
+
+    </script>
+</body>
+
+</html>
