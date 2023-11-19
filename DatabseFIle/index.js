@@ -6,13 +6,13 @@ function connectToDatabase() {
 
     const pool = mysql.createPool({
         connectionLimit: 10,
-        host: "localhost",  
+        host: "localhost",
         user: "root",
         password: "root",
-        database: "Education"
+        database: "education"
     });
 
-    pool.getConnection(function (err, connection) {
+    pool.getConnection(function(err, connection) {
         if (err) {
             console.error('Error connecting to MySQL database: ' + err.stack);
             return;

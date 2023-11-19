@@ -2,112 +2,149 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodingDung | Profile Template</title>
-    <!-- <link rel="stylesheet" href="UserProfile.css"> -->
-    <link rel="stylesheet" href="/CustomerPage/UserProfile.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CodingDung | Profile Template</title>
+        <!-- <link rel="stylesheet" href="UserProfile.css"> -->
+        <link rel="stylesheet" href="/CustomerPage/UserProfile.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+    </head>
 
-<body>
-    <div class="container light-style flex-grow-1 container-p-y">
-        <h4 class="font-weight-bold py-3 mb-4">
-            DashBoard
-        </h4>
-        <div class="card overflow-hidden">
-            <div class="row no-gutters row-bordered row-border-light">
-                <div class="col-md-3 pt-0">
-                    <div class="list-group list-group-flush account-settings-links">
-                        <a class="list-group-item list-group-item-action active" data-toggle="list"
-                            href="#account-general">General</a>
+    <body>
+        <div class="container light-style flex-grow-1 container-p-y">
+            <h4 class="font-weight-bold py-3 mb-4">
+                DashBoard
+            </h4>
+            <div class="card overflow-hidden">
+                <div class="row no-gutters row-bordered row-border-light">
+                    <div class="col-md-3 pt-0">
+                        <div
+                            class="list-group list-group-flush account-settings-links">
+                            <a
+                                class="list-group-item list-group-item-action active"
+                                data-toggle="list"
+                                href="#account-general">General</a>
 
-                        <a class="list-group-item list-group-item-action" data-toggle="list"
-                            href="#account-info">Info</a>
+                            <a class="list-group-item list-group-item-action"
+                                data-toggle="list"
+                                href="#account-info">Info</a>
 
-
-                        <a class="list-group-item list-group-item-action" data-toggle="list"
-                            href="#account-notifications">YOur Course</a> <a
-                            class="list-group-item list-group-item-action" data-toggle="list"
-                            href="#account-change-password">Change password</a>
+                            <a class="list-group-item list-group-item-action"
+                                data-toggle="list"
+                                href="#account-notifications">YOur Course</a> <a
+                                class="list-group-item list-group-item-action"
+                                data-toggle="list"
+                                href="#account-change-password">Change password</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-9">
-                    <div class="tab-content">
-                        <div class="tab-pane fade active show" id="account-general">
-                            <div class="card-body media align-items-center">
-                            </div>
-                            <div class="card-body">
-                                <div class="form-group">
-                                    <label class="form-label">Username</label>
-                                    <input type="text" class="form-control mb-1" value="" placeholder="Your Name">
+                    <div class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane fade active show"
+                                id="account-general">
+                                <div class="card-body media align-items-center">
                                 </div>
-                                <div class="form-group">
-                                    <label class="form-label">Contact Number</label>
-                                    <input type="text" class="form-control" value="" placeholder="Your Contact Number">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">E-mail</label>
-                                    <input type="text" class="form-control mb-1" value="" placeholder="Your Email">
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <label class="form-label">Username</label>
+                                        <input type="text"
+                                            class="form-control mb-1" value
+                                            placeholder="Your Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Contact Number</label>
+                                        <input type="text" class="form-control"
+                                            value
+                                            placeholder="Your Contact Number">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">E-mail</label>
+                                        <input type="text"
+                                            class="form-control mb-1" value
+                                            placeholder="Your Email">
 
-                                </div>
-                                <!-- <div class="form-group">
+                                    </div>
+                                    <!-- <div class="form-group">
                                     <label class="form-label">College Name</label>
                                     <input type="text" class="form-control" value="" placeholder="College Name">
                                 </div> -->
-                            </div>
-
-                            <div class="text-right mt-3">
-                                <button type="button" class="btn btn-primary">Save changes</button>&nbsp;
-                                <button type="button" class="btn btn-default">Cancel</button>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="account-change-password">
-                            <div class="card-body pb-2">
-                                <div class="form-group">
-                                    <label class="form-label">Current password</label>
-                                    <input type="password" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">New password</label>
-                                    <input type="password" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Repeat new password</label>
-                                    <input type="password" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="account-info">
-                            <div class="card-body pb-2">
-                                <div class="form-group">
-                                    <label class="form-label">Bio</label>
-                                    <textarea class="form-control"
-                                        rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nunc arcu, dignissim sit amet sollicitudin iaculis, vehicula id urna. Sed luctus urna nunc. Donec fermentum, magna sit amet rutrum pretium, turpis dolor molestie diam, ut lacinia diam risus eleifend sapien. Curabitur ac nibh nulla. Maecenas nec augue placerat, viverra tellus non, pulvinar risus.</textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Birthday</label>
-                                    <input type="text" class="form-control" value="May 3, 1995">
                                 </div>
 
-                            </div>
-                            <hr class="border-light m-0">
-                            <div class="card-body pb-2">
-                                <h6 class="mb-4">Contacts</h6>
-                                <div class="form-group">
-                                    <label class="form-label">Phone</label>
-                                    <input type="text" class="form-control" value=""
-                                        placeholder="alternate COntact Number">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">College Website</label>
-                                    <input type="text" class="form-control" value placeholder="YOur college Link">
+                                <div class="text-right mt-3">
+                                    <button type="button"
+                                        class="btn btn-primary">Save changes</button>&nbsp;
+                                    <button type="button"
+                                        class="btn btn-default">Cancel</button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="account-social-links">
-                            <!-- <div class="card-body pb-2">
+                            <div class="tab-pane fade"
+                                id="account-change-password">
+                                <div class="card-body pb-2">
+                                    <div class="form-group">
+                                        <label class="form-label">Current
+                                            password</label>
+                                        <input type="password"
+                                            class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">New password</label>
+                                        <input type="password"
+                                            class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Repeat new
+                                            password</label>
+                                        <input type="password"
+                                            class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="account-info">
+                                <div class="card-body pb-2">
+                                    <div class="form-group">
+                                        <label class="form-label">Bio</label>
+                                        <textarea class="form-control"
+                                            rows="5">Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Mauris
+                                            nunc arcu, dignissim sit amet
+                                            sollicitudin iaculis, vehicula id
+                                            urna. Sed luctus urna nunc. Donec
+                                            fermentum, magna sit amet rutrum
+                                            pretium, turpis dolor molestie diam,
+                                            ut lacinia diam risus eleifend
+                                            sapien. Curabitur ac nibh nulla.
+                                            Maecenas nec augue placerat, viverra
+                                            tellus non, pulvinar risus.</textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Birthday</label>
+                                        <input type="text" class="form-control"
+                                            value="May 3, 1995">
+                                    </div>
+
+                                </div>
+                                <hr class="border-light m-0">
+                                <div class="card-body pb-2">
+                                    <h6 class="mb-4">Contacts</h6>
+                                    <div class="form-group">
+                                        <label class="form-label">Phone</label>
+                                        <input type="text" class="form-control"
+                                            value
+                                            placeholder="alternate COntact Number">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">College
+                                            Website</label>
+                                        <input type="text" class="form-control"
+                                            value
+                                            placeholder="YOur college Link">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="account-social-links">
+                                <!-- <div class="card-body pb-2">
                                 <div class="form-group">
                                     <label class="form-label">Twitter</label>
                                     <input type="text" class="form-control" value="https://twitter.com/user">
@@ -129,8 +166,8 @@
                                     <input type="text" class="form-control" value="https://www.instagram.com/user">
                                 </div>
                             </div> -->
-                        </div>
-                        <!-- <div class="tab-pane fade" id="account-connections">
+                            </div>
+                            <!-- <div class="tab-pane fade" id="account-connections">
                             <div class="card-body">
                                 <button type="button" class="btn btn-twitter">Connect to
                                     <strong>Twitter</strong></button>
@@ -157,84 +194,90 @@
                                     <strong>Instagram</strong></button>
                             </div>
                         </div> -->
-                        <div class="tab-pane fade" id="account-notifications">
-                            <div class="text-right mt-3">
-                                <button type="button" class="btn btn-demo btn-primary" data-toggle="modal"
-                                    data-target="#myModal2">Add New </button>&nbsp;
-                                <!-- <button type="button" class="btn btn-default">Cancel</button> -->
+                            <div class="tab-pane fade"
+                                id="account-notifications">
+                                <div class="text-right mt-3">
+                                    <button type="button"
+                                        class="btn btn-demo btn-primary"
+                                        data-toggle="modal"
+                                        data-target="#myModal2">Add New
+                                    </button>&nbsp;
+                                    <!-- <button type="button" class="btn btn-default">Cancel</button> -->
+                                </div>
+                                <hr class="border-light m-0">
+                                <p>Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Eos quasi numquam,
+                                    aspernatur
+                                    accusamus voluptates expedita at in
+                                    perspiciatis minima, nisi sunt dolore.
+                                    Obcaecati
+                                    numquam iste porro! Temporibus sequi
+                                    excepturi reprehenderit.</p>
                             </div>
-                            <hr class="border-light m-0">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quasi numquam, aspernatur
-                                accusamus voluptates expedita at in perspiciatis minima, nisi sunt dolore. Obcaecati
-                                numquam iste porro! Temporibus sequi excepturi reprehenderit.</p>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
 
-    </div>
+        <div class="container demo">
+            <!-- Modal -->
+            <div class="modal right fade" id="myModal2" tabindex="-1"
+                role="dialog" aria-labelledby="myModalLabel2">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
 
-
-    <div class="container demo">
-        <!-- Modal -->
-        <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel2"></h4>
-                    </div>
-
-                    <div class="modal-body">
-
-                        <div class="card-body pb-2">
-                            <h6 class="mb-4"></h6>
-                            <div class="form-group">
-                                <label class="form-label">Name</label>
-                                <input type="text" class="form-control" value="" placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Price</label>
-                                <input type="number" class="form-control" value placeholder="Price">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Details</label>
-                                <input type="text" class="form-control" value placeholder="Details">
-                            </div>
+                        <div class="modal-header">
+                            <button type="button" class="close"
+                                data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel2"></h4>
                         </div>
 
-                        <div class="text-right mt-3">
-                            <button type="button" class="btn btn-primary">Save changes</button>&nbsp;
-                            <!-- <button type="button" class="btn btn-default">Cancel</button> -->
+                        <div class="modal-body" action="">
+
+                            <div class="card-body pb-2">
+                                <h6 class="mb-4"></h6>
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-control"
+                                        value placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Price</label>
+                                    <input type="number" class="form-control"
+                                        value placeholder="Price">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Details</label>
+                                    <input type="text" class="form-control"
+                                        value placeholder="Details">
+                                </div>
+                            </div>
+
+                            <div class="text-right mt-3">
+                                <button type="button" class="btn btn-primary">Save
+                                </button>&nbsp;
+                                <!-- <button type="button" class="btn btn-default">Cancel</button> -->
+                            </div>
+
                         </div>
-                        <!-- <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
-                        </p> -->
-                    </div>
 
-                </div><!-- modal-content -->
-            </div><!-- modal-dialog -->
-        </div><!-- modal -->
+                    </div><!-- modal-content -->
+                </div><!-- modal-dialog -->
+            </div><!-- modal -->
 
+        </div><!-- container -->
 
-    </div><!-- container -->
-
-
-
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript">
+        <script data-cfasync="false"
+            src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript">
 
     </script>
-</body>
+    </body>
 
 </html>
