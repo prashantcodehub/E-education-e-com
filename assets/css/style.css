@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: #fff;
-    color: #22100d;
+    color: #e55d87;
     font-family: 'Gordita Regular', sans-serif;
     font-size: 16px;
     height: 100%;
@@ -17,12 +17,12 @@ h3,
 h4,
 h5,
 h6 {
-    color: #22100d;
+    color: #e55d87;
     font-weight: 500
 }
 
 a {
-    color: #22100d;
+    color: #e55d87;
     text-decoration: none
 }
 
@@ -1084,7 +1084,7 @@ button.bg-danger:hover {
 
 .add-header-bg .header-navbar-rht li a.header-sign:hover {
     background: #fff;
-    color: #22100d;
+    color: #e55d87;
     border: 3px solid #b4a7f5
 }
 
@@ -1913,7 +1913,7 @@ html.menu-opened body {
 }
 
 .home-slide-text h1 span {
-    color: #22100d;
+    color: #e55d87;
     /* font-size: 60px; */
     font-size: 40px;
 }
@@ -2075,7 +2075,7 @@ html.menu-opened body {
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow b {
-    border-color: #22100d;
+    border-color: #e55d87;
     border-style: solid;
     border-width: 0 2px 2px 0;
     padding: 3px;
@@ -2098,7 +2098,7 @@ html.menu-opened body {
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
     background-color: #ffdeda;
-    color: #22100d;
+    color: #e55d87;
     font-size: 14px
 }
 
@@ -2129,7 +2129,7 @@ html.menu-opened body {
     background: #ffdeda;
     margin: 0 10px;
     font-size: 14px;
-    color: #22100d
+    color: #e55d87
 }
 
 .section-header {
@@ -2529,10 +2529,11 @@ html.menu-opened body {
     transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms
 }
 
-.product-img:hover img {
+.product-img img:hover  {
     -webkit-transform: scale(1.15);
     -moz-transform: scale(1.15);
-    transform: scale(1.15)
+    transform: scale(1.15);
+    /* border-radius: 50%; */
 }
 
 .product-content {
@@ -3485,7 +3486,7 @@ html.menu-opened body {
 }
 
 .google-bg span a {
-    color: #22100d;
+    color: #e55d87;
     font-weight: 400
 }
 
@@ -3907,7 +3908,7 @@ html.menu-opened body {
 
 .reset-account p {
     font-size: 14px;
-    color: #22100d;
+    color: #e55d87;
     margin-top: 39px
 }
 
@@ -4185,12 +4186,12 @@ input[type=password]::-ms-clear {
 }
 
 .page-breadcrumb ol li a {
-    color: #22100d;
+    color: #e55d87;
     font-weight: 500
 }
 
 .page-breadcrumb ol li.active {
-    color: #22100d;
+    color: #e55d87;
     font-weight: 500;
     transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -4204,7 +4205,7 @@ input[type=password]::-ms-clear {
 }
 
 .page-breadcrumb ol li.active:hover {
-    color: #22100d;
+    color: #e55d87;
     transition: all .5s ease;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -4218,7 +4219,7 @@ input[type=password]::-ms-clear {
 }
 
 .page-breadcrumb .breadcrumb-item+.breadcrumb-item:before {
-    color: #22100d;
+    color: #e55d87;
     font-size: 11px;
     content: "\f054";
     font-weight: 600;
@@ -4784,7 +4785,7 @@ input[type=password]::-ms-clear {
 
 .instructor-detail p {
     font-size: 13px;
-    color: #22100d;
+    color: #e55d87;
     margin-bottom: 0
 }
 
@@ -5412,7 +5413,7 @@ input[type=password]::-ms-clear {
 }
 
 .support-wrap label {
-    color: #22100d;
+    color: #e55d87;
     font-weight: 500;
     margin-bottom: 15px
 }
@@ -5876,7 +5877,7 @@ input[type=password]::-ms-clear {
 .profile-overview-list .list-content-blk h5 {
     font-size: 15px;
     font-weight: 700;
-    color: #22100d;
+    color: #e55d87;
     margin-bottom: 2px
 }
 
@@ -7611,7 +7612,7 @@ input[type=password]::-ms-clear {
 
 .show-result h4 {
     font-size: 16px;
-    color: #22100d;
+    color: #e55d87;
     margin-bottom: 0
 }
 
@@ -7919,7 +7920,7 @@ input[type=password]::-ms-clear {
     border-color: rgba(255, 222, 218, .71);
     min-height: 40px;
     font-size: 14px;
-    color: #22100d
+    color: #e55d87
 }
 
 .select-form .form-select:focus {
@@ -8166,7 +8167,7 @@ input[type=password]::-ms-clear {
 }
 
 .blog-widget .post-info h4 a {
-    color: #22100d
+    color: #e55d87
 }
 
 .blog-widget .post-info h4 a:hover {
@@ -8196,7 +8197,7 @@ input[type=password]::-ms-clear {
 }
 
 .category-widget .categories li a {
-    color: #22100d;
+    color: #e55d87;
     font-size: 14px;
     font-weight: 500
 }
@@ -8233,7 +8234,7 @@ input[type=password]::-ms-clear {
 .tag {
     background-color: #ffdeda;
     border-radius: 5px;
-    color: #22100d;
+    color: #e55d87;
     padding: 5px 10px;
     position: relative;
     margin: 0 15px 15px 0;
@@ -8246,7 +8247,7 @@ input[type=password]::-ms-clear {
 .tag:hover {
     background-color: #f5cbc5;
     border-color: #f5cbc5;
-    color: #22100d
+    color: #e55d87
 }
 
 .comment-by {
@@ -8991,7 +8992,7 @@ input[type=password]::-ms-clear {
 }
 
 .chat-cont-left .chat-users-list a.media .media-body>div:first-child .user-name {
-    color: #22100d;
+    color: #e55d87;
     font-weight: 600;
     font-size: 16px;
     text-transform: capitalize;
@@ -10141,7 +10142,7 @@ input[type=password]::-ms-clear {
 
 .profile-name h4 {
     font-size: 20px;
-    color: #22100d;
+    color: #e55d87;
     font-weight: 600;
     margin-bottom: 5px
 }
@@ -10834,7 +10835,7 @@ input[type=password]::-ms-clear {
 
 .widget-setcount ul li p {
     font-weight: 500;
-    color: #22100d;
+    color: #e55d87;
     display: inline-flex;
     align-items: center;
     margin-bottom: 0;
@@ -11947,7 +11948,7 @@ input[type=password]::-ms-clear {
     }
 
     .main-nav>li {
-        border-bottom: 1px solid #22100d26;
+        border-bottom: 1px solid #e55d8726;
         margin-left: 0
     }
 
@@ -11958,7 +11959,7 @@ input[type=password]::-ms-clear {
     .main-nav>li>a {
         line-height: 1.5;
         padding: 15px 20px !important;
-        color: #22100d;
+        color: #e55d87;
         font-size: 14px;
         font-weight: 500;
     }
@@ -11976,7 +11977,7 @@ input[type=password]::-ms-clear {
 
     .main-nav>li .submenu li a {
         border-top: 0;
-        color: #22100d;
+        color: #e55d87;
         padding: 10px 15px 10px 35px;
         text-align: center;
     }

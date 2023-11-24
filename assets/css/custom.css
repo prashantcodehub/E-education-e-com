@@ -1740,6 +1740,10 @@ input[readonly] {
     text-align: left;
 }
 
+.text-left2{
+    float: inline-end;
+}
+
 .how-works {
     /* background: #f8fbff; */
     /* background-image: linear-gradient(to right, #f0e4e9d3  , rgba(255, 255, 255, 0)); */

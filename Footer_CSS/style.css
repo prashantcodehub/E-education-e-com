@@ -56,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #3f345f;
+	color: #e55d87;
 }
 
 h2 {
@@ -111,7 +111,7 @@ h2 {
 
 .social-icons a {
 	border-radius: 50px;
-	color: #3f345f;
+	color: #e55d87;
 	display: inline-block;
 	line-height: 52px;
 	height: 50px;
@@ -123,7 +123,7 @@ h2 {
 
 a {
 	text-decoration: none !important;
-	color: #3f345f;
+	color: #e55d87;
 	transition: all 0.3s ease 0s;
 }
 
