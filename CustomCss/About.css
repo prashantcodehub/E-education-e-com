@@ -269,3 +269,19 @@
     width: 100%;
     background-image: url("/Img/pb.png");
 } */
+
+
+
+.images-container img{
+    width: 100% !important;
+    height: 80vh;
+    position: relative;
+}
+
+.images-container h2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+
+}
