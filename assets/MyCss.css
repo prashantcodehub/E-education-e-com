@@ -11,8 +11,11 @@
 
 .carousel-inner img {
     width: 100%;
-    max-height: 460px
+    max-height: 460px;
+    /* position: relative; */
 }
+
+
 
 .carousel-control {
     width: 0;
