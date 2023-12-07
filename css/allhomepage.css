@@ -56,7 +56,7 @@
 }
 
 .course-heading h1 {
-    font-size: 97px;
+    font-size: 87px;
     color: black;
 }
 
@@ -64,7 +64,9 @@
     font-size: 74px;
     margin-top: -30px;
 }
-
+.input-group{
+    top: 21px;
+}
 
 .input-group .form-control {
     position: relative;

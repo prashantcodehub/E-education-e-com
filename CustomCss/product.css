@@ -14,5 +14,13 @@
 }
 
 .product-para{
-    background-color: aqua;
+    /* width: 600px; */
+    /* background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500); */
+    background-color: aliceblue;
+    background-image: linear-gradient(to right, white,aqua, white);
+    /* height: 400px; */
+    /* opacity: 0.5; */
+    /* background: #00723c; */
+    /* background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #00723c); */
+     /* background: linear-gradient(0deg, #00723c 0%, rgba(0, 114, 60, 1) 35%, #00723c 100%); */
 }
