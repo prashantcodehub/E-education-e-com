@@ -913,7 +913,9 @@ button.bg-danger:hover {
 }
 
 .main-nav>li.active>a {
-    color: #f66962
+    color: #f66962;
+    background-color: #00e65b;
+    
 }
 
 .main-nav>li .submenu li a {
@@ -1048,13 +1050,13 @@ button.bg-danger:hover {
 }
 
 .header-navbar-rht li a.header-login {
-    border-radius: 50px;
+    /* border-radius: 50px; */
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     color: #ffffff;
     text-transform: capitalize;
-    font-weight: 500;
-    min-width: 150px;
+    /* font-weight: 500; */
+    min-width: 80px;
     /* border: 3px solid #392c7d; */
     background-color: #e55d87;
     padding: 10px 15px;
@@ -1062,11 +1064,12 @@ button.bg-danger:hover {
 }
 
 .header-navbar-rht li a.header-sign {
-    min-width: 150px;
+    /* min-width: 150px;
     padding: 14px 15px;
     background: rgb(241 241 241/42%);
-    border-radius: 46.9159px;
-    text-align: center
+    border-radius: 46.9159px; */
+    text-align: center;
+    border-color: red green blue yellow;
 }
 
 .header-navbar-rht li a.header-sign:hover {
