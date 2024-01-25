@@ -521,3 +521,36 @@ ul {
 		width: 100%;
 	}
 }
+
+
+/* Prashant footer */
+.kaka {
+	border-radius: 10px;
+	border: 2px solid pink;
+	color: black;
+}
+
+#haha {
+	display: flex;
+	gap: 1vh;
+	justify-content: center;
+}
+
+.CopyRightText {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.kakaButton:hover {
+	background-color: pink;
+	border: 2px solid palevioletred;
+	color: white;
+}
+
+.SocialmediaIcones {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
