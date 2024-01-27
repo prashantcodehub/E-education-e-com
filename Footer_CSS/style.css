@@ -554,3 +554,13 @@ ul {
 	justify-content: center;
 	margin-bottom: 20px;
 }
+
+/* prashant polygon */
+.why-choose-us-section{
+	height: 100vh;
+	/* background-image: url("/Img/why coose us and footer section/3.png"); */
+	background-color: #40beff;
+	background-image: url("/Img/3.svg");
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+}
