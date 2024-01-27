@@ -564,11 +564,118 @@ ul {
 	/* background-size: 50% 50%; */
 	/* background-repeat: no-repeat; */
 }
+.why-choose-us-heading{
+	color: #e55d87;
+	font-size: 4rem;
+	text-align: center;
+}
 .polygon-contaner{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.polygon-contaner-row1{
+.polygon-contaner-row1 {
 	display: flex;
+	justify-content: center;
+	width: 75%;
+	gap: 146px;
+}
+.polygon-text {
+	margin: 0;
+	position: relative;
+	padding: 0;
+	z-index: 1;
+	top: -268px;
+	left: 108px;
+}
+.polygon-text {
+	margin: 0;
+	position: relative;
+	padding: 0;
+	z-index: 1;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 600;
+	top: -268px;
+	left: 10px;
+}
+.polygon-contaner-row2 {
+	position: relative;
+	top: -148px;
+	left: 0px;
+	z-index: -1;
+}
+
+.polygon-contaner-row3 {
+	position: relative;
+	top: -300px;
+	display: flex;
+	justify-content: center;
+	width: 75%;
+	gap: 146px;
+	z-index: -1;
+}
+.why-choose-us-color-bg-text{
+	margin-top: 0px;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+.why-choose-us-pink-bg-text{
+	background-color: #e55d87;
+}
+.why-choose-us-blue-bg-text{
+	background-color: #40beff;
+}
+.polygon-text{
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+.polygon-text-1 {
+	position: relative;
+	z-index: 2;
+	width: 50%;
+	text-align: center;
+	top: -240px;
+	left: 125px;
+}
+.polygon-text-2 {
+	position: relative;
+	z-index: 2;
+	width: 50%;
+	text-align: center;
+	top: -240px;
+	left: 125px;
+}
+.polygon-text-3 {
+	position: relative;
+	z-index: 2;
+	width: 50%;
+	text-align: center;
+	top: -240px;
+	left: 125px;
+}
+.polygon-text-4 {
+	position: relative;
+	z-index: 2;
+	width: 50%;
+	text-align: center;
+	top: -240px;
+	left: 125px;
+}
+.polygon-text-5 {
+	position: relative;
+	z-index: 2;
+	width: 50%;
+	text-align: center;
+	top: -240px;
+	left: 125px;
+}
+
+.polygon-contaner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 135vh;
 }
