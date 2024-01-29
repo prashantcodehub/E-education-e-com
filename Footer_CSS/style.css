@@ -16,8 +16,8 @@ section {
 }
 
 .shadow3 {
-	background-image: url("http://www.commixturesoft.com/img/shadow3.png");
-	background-repeat: no-repeat;
+	/* background-image: url("http://www.commixturesoft.com/img/shadow3.png"); */
+	/* background-repeat: no-repeat; */
 }
 
 .height450 {
@@ -439,32 +439,77 @@ ul {
 	list-style: none;
 }
 
+
 .footer {
 	background-color: #e8eaee;
 	/* padding: 70px 0; */
 	/* background-image: url(""); */
+	position: relative;
 }
+/* footer wave */
+.custom-shape-divider-top-1706534080 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.custom-shape-divider-top-1706534080 svg {
+	position: relative;
+	display: block;
+	width: calc(206% + 1.3px);
+	height: 308px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1706534080 .shape-fill {
+	fill: #FFFFFF;
+}
+.emptydiv-for-more-height{
+	height: 41vh;
+}
+/*END footer wave */
 
 .footer-col {
 	width: 25%;
 	padding: 0 15px;
 }
 
-.footer-col h4 {
+/* .footer-col h4 {
 	font-size: 18px;
 	color: black;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
+} */
+.footer-col h4 {
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-weight: 500;
+	position: relative;
+	padding-left: 20px;
 }
 
-.footer-col h4::before {
+/* .footer-col h4::before {
 	content: '';
 	position: absolute;
 	left: 0;
 	bottom: -10px;
 	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+} */
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -556,14 +601,7 @@ ul {
 }
 
 /* prashant polygon */
-.why-choose-us-section{
-	/* height: 100vh; */
-	/* background-image: url("/Img/why coose us and footer section/3.png"); */
-	/* background-color: #40beff; */
-	/* background-image: url("/Img/3.svg"); */
-	/* background-size: 50% 50%; */
-	/* background-repeat: no-repeat; */
-}
+
 .why-choose-us-heading{
 	color: #e55d87;
 	font-size: 4rem;
@@ -577,8 +615,12 @@ ul {
 .polygon-contaner-row1 {
 	display: flex;
 	justify-content: center;
-	width: 75%;
-	gap: 146px;
+	width: 74%;
+	gap: 158px;
+	height: 51vh;
+}
+.polygon-contaner-row1-item1{
+	width: min-content;
 }
 .polygon-text {
 	margin: 0;
@@ -601,30 +643,50 @@ ul {
 }
 .polygon-contaner-row2 {
 	position: relative;
-	top: -148px;
-	left: 0px;
+	top: -170px;
+	left: 17px;
 	z-index: -1;
+	height: 50vh;
+	width: 31.7vw;
 }
 
 .polygon-contaner-row3 {
 	position: relative;
-	top: -300px;
+	top: -340px;
 	display: flex;
 	justify-content: center;
-	width: 75%;
-	gap: 146px;
+	width: 74%;
+	gap: 158px;
 	z-index: -1;
+	height: 50vh;
 }
-.why-choose-us-color-bg-text{
+.why-choose-us-bg-text-container {
+	position: relative;
+	top: -190px;
+}
+.why-choose-us-color-bg-text {
 	margin-top: 0px;
-	margin-left: 10vw;
-	margin-right: 10vw;
+	height: 24vh;
 }
 .why-choose-us-pink-bg-text{
 	background-color: #e55d87;
 }
 .why-choose-us-blue-bg-text{
 	background-color: #40beff;
+}
+.why-choose-us-blue-bg-text.why-choose-us-color-bg-text {
+	height: 20vh;
+}
+
+.why-choose-us-color-bg-text-1 {
+	display: flex;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	font-size: 2.2rem;
 }
 .polygon-text{
 	margin: 0;
@@ -637,40 +699,50 @@ ul {
 	z-index: 2;
 	width: 50%;
 	text-align: center;
-	top: -240px;
-	left: 125px;
+	top: -260px;
+	left: 111px;
+	font-size: 1.6rem;
+	font-weight: 500;
 }
 .polygon-text-2 {
 	position: relative;
 	z-index: 2;
 	width: 50%;
 	text-align: center;
-	top: -240px;
-	left: 125px;
+	top: -260px;
+	left: 111px;
+	font-size: 1.6rem;
+	font-weight: 500;
 }
 .polygon-text-3 {
 	position: relative;
 	z-index: 2;
 	width: 50%;
 	text-align: center;
-	top: -240px;
-	left: 125px;
+	top: -260px;
+	left: 111px;
+	font-size: 1.6rem;
+	font-weight: 500;
 }
 .polygon-text-4 {
 	position: relative;
 	z-index: 2;
 	width: 50%;
 	text-align: center;
-	top: -240px;
-	left: 125px;
+	top: -260px;
+	left: 111px;
+	font-size: 1.6rem;
+	font-weight: 500;
 }
 .polygon-text-5 {
 	position: relative;
 	z-index: 2;
 	width: 50%;
 	text-align: center;
-	top: -240px;
-	left: 125px;
+	top: -260px;
+	left: 111px;
+	font-size: 1.6rem;
+	font-weight: 500;
 }
 
 .polygon-contaner {
@@ -679,3 +751,65 @@ ul {
 	align-items: center;
 	height: 135vh;
 }
+
+.polygon-text-1-heading {
+	margin: 0;
+	position: relative;
+	padding: 0;
+	z-index: 1;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 700;
+	top: -268px;
+	left: 116px;
+	width: 14vw;
+}
+.polygon-text-2-heading {
+	margin: 0;
+	position: relative;
+	padding: 0;
+	z-index: 1;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 700;
+	top: -268px;
+	left: 116px;
+	width: 14vw;
+}
+.polygon-text-3-heading {
+	margin: 0;
+	position: relative;
+	padding: 0;
+	z-index: 1;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 700;
+	top: -268px;
+	left: 116px;
+	width: 14vw;
+}
+.polygon-text-4-heading {
+	margin: 0;
+	position: relative;
+	padding: 0;
+	z-index: 1;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 700;
+	top: -268px;
+	left: 116px;
+	width: 14vw;
+}
+.polygon-text-5-heading {
+	margin: 0;
+	position: relative;
+	padding: 0;
+	z-index: 1;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 700;
+	top: -268px;
+	left: 116px;
+	width: 14vw;
+}
+/* END prashant polygon */

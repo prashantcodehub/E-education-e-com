@@ -2140,11 +2140,12 @@ html.menu-opened body {
     position: relative;
     display: flex
 }
-
+/* look into it */
 .section-sub-head h2 {
-    font-size: 36px;
+    font-size: 80px;
     margin-bottom: 0;
-    font-weight: 700;
+    /* change font-weight: 700; to*/
+    font-weight: 600;  
     color: #0b0b0b;
     letter-spacing: .9px;
     font-family: 'Gordita Bold';
