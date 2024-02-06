@@ -315,11 +315,26 @@
 
 .approach-heading h1 {
     font-size: 4rem;
+    text-align: left;
 }
 
 .approach-heading p {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+    text-align: left;
 }
+
+p.approach-p-Our-Promise {
+    text-align: right;
+}
+
+h1.approach-heading-Our-Promise {
+    text-align: right;
+}
+
+.Our-Promise-spacing-to-above{
+    margin-top: 15vh;
+}
+
 
 .img-container img {
     width: 100%;

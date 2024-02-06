@@ -7,9 +7,34 @@
 
 
 
+/* Prashant nav */
+a.nav-link.header-sign-up {
+	position: relative;
+	display: block;
+	padding: 8px 12px;
+	border: 1px solid black;
+}
+@media (min-width: 1200px) {
+	.main-nav>li {
+		/* border: 1px solid black; */
+		margin-right: 30px;
+		border-radius: 25px;
+		height: 5vh;
+		width: 8vw;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: center;
+		transition: background-color .3s, color .3s;
+	}
 
-
-
+	.main-nav>li:hover {
+		border: 1px solid #FFA8AE;
+		color: white!important;
+		background-color: #FFA8AE;
+	}
+}
+/*END Prashant nav */
 section {
 	/* padding: 33px 0; */
 

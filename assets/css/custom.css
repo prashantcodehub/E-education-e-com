@@ -1738,6 +1738,10 @@ input[readonly] {
 .how-works .how-card-sub-title,
 .how-works .how-card-para {
     text-align: left;
+    
+}
+.how-works .how-card-title{
+    color: #E55D87;
 }
 
 .text-left2{
