@@ -383,6 +383,7 @@ h1.approach-heading-Our-Promise {
     transition: 0.3s;
     width: 235px;
     margin: 15px 7.5px;
+        height: 52vh;
 }
 
 .card21:hover {

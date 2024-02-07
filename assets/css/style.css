@@ -59,9 +59,9 @@ button:focus {
 
 input[type=text],
 input[type=password] {
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     -moz-appearance: none;
-    appearance: none
+    /* appearance: none */
 }
 
 .btn.focus,

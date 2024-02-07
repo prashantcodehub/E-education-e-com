@@ -1,0 +1,112 @@
+.display-flex-class-direction-colunm{
+    display: flex;
+    flex-direction: column;
+}
+.display-flex-class-direction-row{
+    display: flex;
+    flex-direction:row
+}
+
+.Contact-Form-Container-all-of-the-form{
+    border: 1px solid black;
+    margin: 10vh 10vh 10vh 10vh ;
+    box-shadow: 0px 5px 10px #888888;
+}
+
+.email-logo{
+    border: 1px solid black;
+}
+ .phone-logo{
+    border: 1px solid black;
+}
+ .whatsapp-logo{
+    border: 1px solid black;
+}
+ .map-marker-logo{
+    border: 1px solid black;
+}
+
+.column-2-contact-form-contact-page{
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px #888888;
+}
+
+.row-1-Contact-Form {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    /* justify-content: space-around; */
+}
+.column-1-contact-form-contact-page{
+    width: 40%;
+    margin-left: 5vw;
+        margin-right: 5vw;
+}
+.column-2-contact-form-contact-page {
+    width: 60%;
+    /* margin-left: 5vw; */
+    margin-right: 5vw;
+    padding: 0.6% 1.5%;
+}
+
+.row-3Contact-Form {
+    margin: 5vh;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.icon-logo-div-spacing{
+    /* margin-top: 3vh; */
+    margin-bottom: 3vh;
+}
+.part-1 {
+    width: 44%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.part-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label.lalab {
+    margin-top: 1vh;
+}
+
+.contact-form-submit-button{
+    width: 20vh;
+    height: 7vh;
+    font-size: x-large;
+    /* text-transform: uppercase; */
+    background-color: aqua;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+#textarea-form {
+    height: 12vh;
+}
+.logo-icon-text{
+    gap: 2vw;
+    align-items: center;
+    box-shadow: 0px 5px 10px #888888;
+}
+
+
+
+.contact-info-icon {
+    color: black;
+}
+.lets-talk>h2 {
+    color: black;
+}
+.lets-talk>p{
+    font-size: 1.438rem;
+}
+.fill-the-form-below>h2 {
+    font-size: 36px;
+    color: black;
+}
